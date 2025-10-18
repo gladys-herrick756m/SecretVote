@@ -1,0 +1,93 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "SecretVote" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img [ref=e10]
+          - generic [ref=e13]: SecretVote
+        - navigation "Main navigation" [ref=e14]:
+          - link "Proposals" [ref=e15] [cursor=pointer]:
+            - /url: /
+          - link "Create" [ref=e16] [cursor=pointer]:
+            - /url: /create
+            - img [ref=e17]
+            - text: Create
+          - link "Admin" [ref=e18] [cursor=pointer]:
+            - /url: /admin
+            - img [ref=e19]
+            - text: Admin
+      - button "Connect Wallet" [ref=e22] [cursor=pointer]
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - heading "DAO Governance" [level=1] [ref=e26]
+      - paragraph [ref=e27]: Vote on proposals with privacy-preserving encryption
+    - tablist [ref=e29]:
+      - tab "All Proposals" [selected] [ref=e30] [cursor=pointer]
+      - tab "Active" [ref=e31] [cursor=pointer]
+      - tab "Ended" [ref=e32] [cursor=pointer]
+    - generic [ref=e33]:
+      - article [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - generic [ref=e39]:
+                - img [ref=e40]
+                - text: Active
+              - generic [ref=e43]:
+                - img [ref=e44]
+                - text: 5d 23h remaining
+            - heading "Increase Block Gas Limit to 30M" [level=3] [ref=e47]
+            - paragraph [ref=e48]: Proposal to increase the block gas limit from 15M to 30M to accommodate more transactions per block and reduce congestion during peak times.
+          - generic [ref=e49]:
+            - generic [ref=e50]: "Proposer: 0x1234...7890"
+            - link "View Details" [ref=e51] [cursor=pointer]:
+              - /url: /proposal/1
+              - button "View Details" [ref=e52]
+      - article [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - img [ref=e59]
+                - text: Active
+              - generic [ref=e62]:
+                - img [ref=e63]
+                - text: 3d 23h remaining
+            - heading "Treasury Allocation for Marketing" [level=3] [ref=e66]
+            - paragraph [ref=e67]: Allocate 100 ETH from the DAO treasury for Q1 2025 marketing initiatives including conference sponsorships and community events.
+          - generic [ref=e68]:
+            - generic [ref=e69]: "Proposer: 0x2345...8901"
+            - link "View Details" [ref=e70] [cursor=pointer]:
+              - /url: /proposal/2
+              - button "View Details" [ref=e71]
+      - article [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e75]:
+            - generic [ref=e77]:
+              - img [ref=e78]
+              - text: Finalized
+            - heading "Implement EIP-4844 Support" [level=3] [ref=e81]
+            - paragraph [ref=e82]: Upgrade network to support EIP-4844 (Proto-Danksharding) to significantly reduce L2 transaction costs.
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - generic [ref=e85]: For
+              - generic [ref=e86]: "4523"
+            - generic [ref=e87]:
+              - generic [ref=e88]: Against
+              - generic [ref=e89]: "1234"
+            - generic [ref=e90]:
+              - generic [ref=e91]: Abstain
+              - generic [ref=e92]: "567"
+          - generic [ref=e93]:
+            - generic [ref=e94]: "Proposer: 0x3456...9012"
+            - link "View Details" [ref=e95] [cursor=pointer]:
+              - /url: /proposal/3
+              - button "View Details" [ref=e96]
+```

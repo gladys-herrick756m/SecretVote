@@ -1,0 +1,49 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "SecretVote" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img [ref=e10]
+          - generic [ref=e13]: SecretVote
+        - navigation "Main navigation" [ref=e14]:
+          - link "Proposals" [ref=e15] [cursor=pointer]:
+            - /url: /
+          - link "Create" [ref=e16] [cursor=pointer]:
+            - /url: /create
+            - img [ref=e17]
+            - text: Create
+          - link "Admin" [ref=e18] [cursor=pointer]:
+            - /url: /admin
+            - img [ref=e19]
+            - text: Admin
+      - button "Connect Wallet" [ref=e22] [cursor=pointer]
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - heading "Create New Proposal" [level=1] [ref=e26]
+      - paragraph [ref=e27]: Submit a proposal for the DAO to vote on
+    - form "Create proposal form" [ref=e29]:
+      - generic [ref=e30]:
+        - text: Proposal Title
+        - textbox "Proposal Title" [active] [ref=e31]:
+          - /placeholder: Enter proposal title (10-200 characters)
+        - paragraph [ref=e32]: 0/200 characters
+      - generic [ref=e33]:
+        - text: Description
+        - textbox "Description" [ref=e34]:
+          - /placeholder: Provide a detailed description of your proposal (supports Markdown)
+        - paragraph [ref=e35]: 0/2000 characters • Markdown supported
+      - generic [ref=e36]:
+        - text: Voting Duration (days)
+        - spinbutton "Voting Duration (days)" [ref=e37]: "7"
+        - paragraph [ref=e38]: Voting will end 7 days after proposal creation
+      - generic [ref=e39]:
+        - button "Cancel" [ref=e40] [cursor=pointer]
+        - button "Create Proposal" [ref=e41] [cursor=pointer]
+```
