@@ -1,5 +1,11 @@
 # SecretVote - DAO Governance Voting System
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://secretvote-dao.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/gladys-herrick756m/SecretVote)
+[![Contract](https://img.shields.io/badge/Sepolia-Contract-orange?style=for-the-badge&logo=ethereum)](https://sepolia.etherscan.io/address/0x9601411c00f3C3365686912deCDb61080dC7232b)
+
+🔗 **Live Application**: https://secretvote-dao.vercel.app
+
 ## Project Overview
 
 SecretVote is a privacy-preserving DAO governance voting platform built on Zama's fhEVM technology. It enables DAO members to cast encrypted votes on proposals while keeping individual voting choices private. Only the final aggregated results are revealed after the voting period ends.

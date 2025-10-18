@@ -3,6 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://secretvote-dao.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gladys-herrick756m/SecretVote"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
